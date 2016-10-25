@@ -4,8 +4,8 @@
 <nav>
 	<div class="nav-wrapper grey lighten-4">
 		<div class="row">
-			<div class="col s2 l2 m2"></div>
-			<div class="col s8 l8 m8">
+			<div class="col s1 l1 m1"></div>
+			<div class="col s10 l10 m10">
 				<a href="#" class="brand-logo black-text">
 					<img src="<c:url value="/resources/img/elysium-logo.png"/>" width="175" height="40"/>
 				</a>
@@ -14,7 +14,7 @@
 					<li><a href="#" class="grey-text text-darken-3"><spring:message code = "header.link.subscribe"/></a></li>
 				</ul>
 			</div>
-			<div class="col s2 l2 m2"></div>
+			<div class="col s1 l1 m1"></div>
 		</div>
 		
 	</div>

@@ -1,11 +1,22 @@
-body {
-	background-color:#fafafa;
-}
-
 .brand-logo {
 	margin-top:12px;
 }
 
 .menu-wrapper {
-	margin-top:5px;
+	margin-top:10px;
+}
+
+.menu-cell {
+	float:left;
+	width:100px;
+	text-align:center;
+}
+
+.menu-wrapper a {
+	font-size:16px;
+	color:#757575;
+}
+
+.menu-wrapper a:hover {
+	text-decoration:underline;
 }

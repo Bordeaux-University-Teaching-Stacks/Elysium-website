@@ -6,7 +6,7 @@
 
 	<definition name="portal" extends="PortalTemplate">
 		<put-attribute name="titleKey" value="page.home.title" />
-		<put-attribute name="body" value="/views/pages/portal.jsp" />
+		<put-attribute name="body" value="/views/pages/portal/portal.jsp" />
 	</definition>
 
 </tiles-definitions>

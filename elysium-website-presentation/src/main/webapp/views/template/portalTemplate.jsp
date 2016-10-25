@@ -11,10 +11,16 @@
 <c:set var="titleKey"><tiles:getAsString name="titleKey"/></c:set>
 <title><spring:message code = "${titleKey}"/></title>
 </head>
-<body>
+<body class="grey lighten-5">
 	<div><tiles:insertAttribute name="header"/></div>  
 	<div><tiles:insertAttribute name="menu"/></div>  
-	<div><tiles:insertAttribute name="body"/></div>  
+	<div class="row">
+		<div class="col s1 m1 l1"></div>
+		<div class="col s10 m10 l10">
+			<tiles:insertAttribute name="body"/>
+		</div>
+		<div class="col s1 m1 l1"></div>
+	</div>  
 	<div><tiles:insertAttribute name="footer"/></div>
 	
 	<script type="text/javascript" src="<c:url value="/resources/js/jquery-3.1.1.min.js"/>"></script>
