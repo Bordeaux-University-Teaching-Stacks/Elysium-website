@@ -68,6 +68,19 @@ public class Group {
   private List<User> users = new ArrayList<User>();
 
   /**
+   * Implicit constructor
+   */
+  public Group() {};
+  
+  /**
+   * Explicit constructor
+   * @param id
+   */
+  public Group(int id) {
+	this.id = id;
+  }
+
+/**
    * @return the id
    */
   public int getId() {

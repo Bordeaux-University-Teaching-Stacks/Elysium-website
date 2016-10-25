@@ -5,7 +5,7 @@
 	<div class="col s8 l8 m8">
 		<c:forEach items="${resources}" var="resource">
      		<div id="menu_${ resource.id }">
-     			<a href="<c:url value="${ resource.path }"/>">${ resource.name }</a>
+     			<a href="<c:url value="${ resource.uri }"/>">${ resource.name }</a>
      		</div>
 	 	</c:forEach>
 	</div>

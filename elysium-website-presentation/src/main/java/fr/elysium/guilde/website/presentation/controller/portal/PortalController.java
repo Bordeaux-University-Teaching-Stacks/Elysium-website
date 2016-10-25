@@ -2,14 +2,12 @@ package fr.elysium.guilde.website.presentation.controller.portal;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.SessionAttributes;
 import org.springframework.web.servlet.ModelAndView;
 
 import fr.elysium.guilde.website.business.service.ui.ResourceBusinessService;
-import fr.elysium.guilde.website.persistence.entity.acl.User;
 import fr.elysium.guilde.website.presentation.controller.commons.AbstractElysiumController;
 import fr.elysium.guilde.website.presentation.controller.portal.enums.PortalSceneEnum;
 
@@ -33,9 +31,9 @@ public class PortalController extends AbstractElysiumController {
    * @return
    */
   @RequestMapping(method = RequestMethod.GET)
-  public ModelAndView renderHome(@ModelAttribute User currentUser) {
+  public ModelAndView renderHome() {
     ModelAndView page = new ModelAndView(PortalSceneEnum.HOME_SCENE.getValue());
-    page.addObject("menus", resourceBusinessService.listMainMenu(currentUser.getGroup()));
+    page.addObject("resources", resourceBusinessService.listMainMenu(this.currentUser.getGroup()));
     return page;
   }
 }

@@ -1,6 +1,5 @@
 package fr.elysium.guilde.website.persistence.entity.acl;
 
-import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
@@ -44,31 +43,31 @@ public abstract class User {
   @Id
   @GeneratedValue(strategy=GenerationType.IDENTITY)
   @Column(name = "ID_USER", nullable = false, unique = true)
-  private long id;
+  protected long id;
   
   /**
    * User name
    */
   @Column(name = "USER_NAME", nullable = true, length = 50)
-  private String name;
+  protected String name;
   
   /**
    * User surname
    */
   @Column(name = "USER_SURNAME", nullable = true, length = 50)
-  private String surname;
+  protected String surname;
   
   /**
    * User email
    */
   @Column(name = "USER_EMAIL", nullable = false, unique = true, length = 100)
-  private String email;
+  protected String email;
   
   /**
    * User encrypted password
    */
   @Column(name = "USER_PASSWORD", nullable = false, length = 255)
-  private String password;
+  protected String password;
   
   /**
    * User birth date
@@ -76,59 +75,59 @@ public abstract class User {
   @Column(name = "USER_BIRTH", nullable = true)
   @Temporal(TemporalType.DATE)
   @DateTimeFormat(pattern = "dd/MM/yyyy")
-  private Date birth;
+  protected Date birth;
 
   /**
    * User phone number
    */
   @Column(name = "USER_PHONE_NUMBER", nullable = true, length = 10)
-  private int phoneNumber;
+  protected int phoneNumber;
   
   /**
    * User is enabled / disabled
    */
   @Column(name = "USER_ACTIVE", nullable = false)
-  private boolean active = false;
+  protected boolean active = false;
   
   /**
    * User agreed with legals or not
    */
   @Column(name = "USER_AGREE_LEGALS", nullable = false)
-  private boolean agreeWithLegals = false;
+  protected boolean agreeWithLegals = false;
   
   /**
    * User avatar
    */
   @Column(name = "USER_AVATAR", nullable = true, length = 255)
-  private String avatar;
+  protected String avatar;
 
   /**
    * User forum posts
    */
   @OneToMany(fetch = FetchType.LAZY)
   @JoinColumn(name = "ID_FORUM_POST")
-  private List<ForumPost> posts = new ArrayList<ForumPost>();
+  protected List<ForumPost> posts;
 
   /**
    * User replies
    */
   @OneToMany(fetch = FetchType.LAZY)
   @JoinColumn(name = "ID_USER")
-  private List<ForumReply> replies = new ArrayList<ForumReply>();
+  protected List<ForumReply> replies;
 
   /**
    * User articles
    */
   @OneToMany(fetch = FetchType.LAZY)
   @JoinColumn(name = "ID_USER")
-  private List<Article> articles = new ArrayList<Article>();
+  protected List<Article> articles;
 
   /**
    * User group
    */
   @ManyToOne(fetch = FetchType.LAZY)
   @JoinColumn(name = "ID_GROUP")
-  private Group group;
+  protected Group group;
 
   /**
    * @return the id
