@@ -7,6 +7,7 @@
 <head>
 <link type="text/css" rel="stylesheet" href="<c:url value="/resources/css/materialize.min.css"/>"  media="screen,projection"/>
 <link type="text/css" rel="stylesheet" href="<c:url value="/resources/css/style.css"/>"/>
+<link type="text/css" rel="stylesheet" href="<c:url value="/resources/css/slider.css"/>"/>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <c:set var="titleKey"><tiles:getAsString name="titleKey"/></c:set>
 <title><spring:message code = "${titleKey}"/></title>
@@ -17,6 +18,7 @@
 	<div class="row">
 		<div class="col s1 m1 l1"></div>
 		<div class="col s10 m10 l10">
+			<tiles:insertAttribute name="slider"/>
 			<tiles:insertAttribute name="body"/>
 		</div>
 		<div class="col s1 m1 l1"></div>
@@ -25,5 +27,7 @@
 	
 	<script type="text/javascript" src="<c:url value="/resources/js/jquery-3.1.1.min.js"/>"></script>
 	<script type="text/javascript" src="<c:url value="/resources/js/materialize.min.js"/>"></script>
+	<script type="text/javascript" src="<c:url value="/resources/js/slider.plugin.js" />"></script>
+	<script type="text/javascript" src="<c:url value="/resources/js/slider.js" />"></script>
 </body>
 </html>

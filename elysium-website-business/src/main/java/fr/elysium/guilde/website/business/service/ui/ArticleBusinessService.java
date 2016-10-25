@@ -1,5 +1,9 @@
 package fr.elysium.guilde.website.business.service.ui;
 
+import java.util.List;
+
+import fr.elysium.guilde.website.persistence.entity.media.Article;
+
 /**
  * <b>ArticleBusinessService</b> for articles business rules
  * 
@@ -7,5 +11,13 @@ package fr.elysium.guilde.website.business.service.ui;
  *
  */
 public interface ArticleBusinessService {
+
+  /**
+   * List last news
+   * 
+   * @param nbNews : number of news
+   * @return
+   */
+  List<Article> listLastNews(int nbNews);
 
 }

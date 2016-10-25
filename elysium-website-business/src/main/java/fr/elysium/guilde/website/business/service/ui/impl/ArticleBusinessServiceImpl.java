@@ -3,7 +3,9 @@ package fr.elysium.guilde.website.business.service.ui.impl;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
+import fr.elysium.guilde.website.business.service.media.ArticleService;
 import fr.elysium.guilde.website.business.service.ui.ArticleBusinessService;
 import fr.elysium.guilde.website.persistence.entity.media.Article;
 
@@ -13,6 +15,7 @@ import fr.elysium.guilde.website.persistence.entity.media.Article;
  * @author Meidi
  *
  */
+@Service("ArticleBusinessService")
 public class ArticleBusinessServiceImpl implements ArticleBusinessService {
 
   @Autowired
@@ -22,8 +25,8 @@ public class ArticleBusinessServiceImpl implements ArticleBusinessService {
    * {@inheritDoc}
    */
   @Override
-  public List<Article> listLastNews() {
-    return articleService.listLastNews();
+  public List<Article> listLastNews(int nbNews) {
+    return articleService.listLastNews(nbNews);
   }
 
 }

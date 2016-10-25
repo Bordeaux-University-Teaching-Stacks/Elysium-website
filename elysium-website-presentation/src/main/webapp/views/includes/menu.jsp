@@ -2,7 +2,7 @@
 
 <div class="row menu-wrapper">
 	<div class="col s1 l1 m1"></div>
-	<div class="col s10 l10 m10 white">
+	<div class="col s10 l10 m10">
 		<c:forEach items="${resources}" var="resource">
      		<div class="menu-cell">
      			<a href="<c:url value="${ resource.uri }"/>">${ resource.name }</a>

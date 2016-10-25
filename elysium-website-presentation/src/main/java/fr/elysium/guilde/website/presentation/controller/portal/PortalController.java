@@ -7,9 +7,11 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.SessionAttributes;
 import org.springframework.web.servlet.ModelAndView;
 
+import fr.elysium.guilde.website.business.service.ui.ArticleBusinessService;
 import fr.elysium.guilde.website.business.service.ui.ResourceBusinessService;
 import fr.elysium.guilde.website.presentation.controller.commons.AbstractElysiumController;
 import fr.elysium.guilde.website.presentation.controller.portal.enums.PortalSceneEnum;
+import fr.elysium.guilde.website.presentation.controller.portal.util.PortalEnvironmentVariableUtil;
 
 /**
  * <b>PortalController</b> routes actions from the Portal
@@ -19,11 +21,17 @@ import fr.elysium.guilde.website.presentation.controller.portal.enums.PortalScen
  */
 @Controller
 @RequestMapping("/")
-@SessionAttributes(value = {"currentUser", "menus"})
+@SessionAttributes(value = {"currentUser", "resources"})
 public class PortalController extends AbstractElysiumController {
 
   @Autowired
   private ResourceBusinessService resourceBusinessService;
+
+  @Autowired
+  private ArticleBusinessService articleBusinessService;
+  
+  @Autowired
+  private PortalEnvironmentVariableUtil portalEnvironmentVariableUtil;
 
   /**
    * Home page : render the portal
@@ -32,8 +40,9 @@ public class PortalController extends AbstractElysiumController {
    */
   @RequestMapping(method = RequestMethod.GET)
   public ModelAndView renderHome() {
-    ModelAndView page = new ModelAndView(PortalSceneEnum.HOME_SCENE.getValue());
-    page.addObject("resources", resourceBusinessService.listMainMenu(this.currentUser.getGroup()));
-    return page;
+    this.page = new ModelAndView(PortalSceneEnum.HOME_SCENE.getValue());
+    this.page.addObject("resources", resourceBusinessService.listMainMenu(this.currentUser.getGroup()));
+    this.page.addObject("news", articleBusinessService.listLastNews(portalEnvironmentVariableUtil.getNbNewsSlider()));
+    return this.page;
   }
 }
