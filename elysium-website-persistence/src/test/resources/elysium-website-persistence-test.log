@@ -2074,3 +2074,459 @@ Caused by: org.hibernate.AnnotationException: @OneToOne or @ManyToOne on fr.elys
 2016-10-24 23:43:39 INFO  SchemaExport:406 - HHH000230: Schema export complete
 2016-10-24 23:43:39 INFO  BoneCP:159 - Shutting down connection pool...
 2016-10-24 23:43:39 INFO  BoneCP:188 - Connection pool has been shutdown.
+2016-10-25 16:43:25 INFO  TestContextManager:242 - Could not instantiate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [javax/servlet/ServletContext]
+2016-10-25 16:43:25 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [applicationContext-persistence-test.xml]
+2016-10-25 16:43:26 INFO  GenericApplicationContext:515 - Refreshing org.springframework.context.support.GenericApplicationContext@6d00a15d: startup date [Tue Oct 25 16:43:26 CEST 2016]; root of context hierarchy
+2016-10-25 16:43:26 WARN  BoneCPConfig:618 - releaseHelperThreads has been deprecated -- it tends to slow down your application more.
+2016-10-25 16:43:26 INFO  LocalContainerEntityManagerFactoryBean:334 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2016-10-25 16:43:26 INFO  LogHelper:46 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2016-10-25 16:43:26 INFO  Version:54 - HHH000412: Hibernate Core {4.3.10.Final}
+2016-10-25 16:43:26 INFO  Environment:224 - HHH000205: Loaded properties from resource hibernate.properties: {hibernate.bytecode.use_reflection_optimizer=false, hibernate.hbm2ddl.import_files=import.sql, hibernate.format_sql=false, hibernate.hbm2ddl.auto=create-drop}
+2016-10-25 16:43:26 INFO  Environment:346 - HHH000021: Bytecode provider name : javassist
+2016-10-25 16:43:26 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-10-25 16:43:27 INFO  Dialect:145 - HHH000400: Using dialect: org.hibernate.dialect.HSQLDialect
+2016-10-25 16:43:27 INFO  ASTQueryTranslatorFactory:47 - HHH000397: Using ASTQueryTranslatorFactory
+2016-10-25 16:43:27 INFO  SchemaExport:344 - HHH000227: Running hbm2ddl schema export
+2016-10-25 16:43:27 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_ACHIEVEMENTS drop constraint FK_mjhgvslttb578fodlsl651872
+2016-10-25 16:43:27 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_ACHIEVEMENTS
+2016-10-25 16:43:27 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_ACHIEVEMENTS drop constraint FK_q68im35cvu8my7g9md756r5pv
+2016-10-25 16:43:27 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_ACHIEVEMENTS
+2016-10-25 16:43:27 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_ARTICLES drop constraint FK_janf737sar6b88umviy1ib0y1
+2016-10-25 16:43:27 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_ARTICLES
+2016-10-25 16:43:27 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_ARTICLES_GROUPS drop constraint FK_ron0fsnqjugb2r69ke3810dhy
+2016-10-25 16:43:27 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_ARTICLES_GROUPS
+2016-10-25 16:43:27 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_ARTICLES_GROUPS drop constraint FK_8q5axbrc3y1jju58vl58ryi99
+2016-10-25 16:43:27 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_ARTICLES_GROUPS
+2016-10-25 16:43:27 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_CHARACTERS drop constraint FK_mdgh8xpyio38ow6dt6xbysvae
+2016-10-25 16:43:27 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_CHARACTERS
+2016-10-25 16:43:27 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_CHARACTERS drop constraint FK_4osif0cr2dbkfrweo639m0735
+2016-10-25 16:43:27 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_CHARACTERS
+2016-10-25 16:43:27 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_CHARACTERS drop constraint FK_5349hgdety2tcnfnm9740s33g
+2016-10-25 16:43:27 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_CHARACTERS
+2016-10-25 16:43:27 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_CHARACTERS drop constraint FK_p7a44ggqxaiby42qq5kvqskvk
+2016-10-25 16:43:27 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_CHARACTERS
+2016-10-25 16:43:27 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_CHARACTERS drop constraint FK_bf23ke1bw8trdk8x7r64jsbo8
+2016-10-25 16:43:27 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_CHARACTERS
+2016-10-25 16:43:27 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_CHARACTERS drop constraint FK_1bm0cxppjeexqthoa48qcstj8
+2016-10-25 16:43:27 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_CHARACTERS
+2016-10-25 16:43:27 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_CHARACTERS drop constraint FK_q5hbn2s7ippolrsrvqg2v0j6t
+2016-10-25 16:43:27 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_CHARACTERS
+2016-10-25 16:43:27 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_FORUMS_CATEGORIES drop constraint FK_bkf1m16owuo5c7bbmux0fyuu9
+2016-10-25 16:43:27 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_FORUMS_CATEGORIES
+2016-10-25 16:43:27 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_FORUMS_GROUPS drop constraint FK_6tpveyrl4im2eemqa2pditmka
+2016-10-25 16:43:27 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_FORUMS_GROUPS
+2016-10-25 16:43:27 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_FORUMS_GROUPS drop constraint FK_qtaysnak2ex8pkpxvbf5v1exp
+2016-10-25 16:43:27 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_FORUMS_GROUPS
+2016-10-25 16:43:27 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_FORUMS_POSTS drop constraint FK_5nm6lw8yphi0bxxlms8p2mbvi
+2016-10-25 16:43:27 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_FORUMS_POSTS
+2016-10-25 16:43:27 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_FORUMS_POSTS drop constraint FK_ti2munw08j5ud7xfwmjcq8fbw
+2016-10-25 16:43:27 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_FORUMS_POSTS
+2016-10-25 16:43:27 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_FORUMS_POSTS drop constraint FK_6b7r5645ehhvjndwku2hv3no0
+2016-10-25 16:43:27 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_FORUMS_POSTS
+2016-10-25 16:43:27 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_FORUM_REPLY drop constraint FK_q6yyqnresffnthg3in2ur91h9
+2016-10-25 16:43:27 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_FORUM_REPLY
+2016-10-25 16:43:27 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_FORUM_REPLY drop constraint FK_80wxmerxdbvnc5gf3u8uwx79b
+2016-10-25 16:43:27 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_FORUM_REPLY
+2016-10-25 16:43:27 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_PATCHES drop constraint FK_96pdu6r0gxxx6kysskwnm6x2i
+2016-10-25 16:43:27 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_PATCHES
+2016-10-25 16:43:27 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_PATCHES drop constraint FK_iqlr8yg9l3a14s6fs0bnyi2eh
+2016-10-25 16:43:27 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_PATCHES
+2016-10-25 16:43:27 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_RACES drop constraint FK_928gmjm3jwtu42qgdfldb8inl
+2016-10-25 16:43:27 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_RACES
+2016-10-25 16:43:27 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_RACES_CLASSES drop constraint FK_es9qsb2o5lw7m1yufrhd1mmr3
+2016-10-25 16:43:27 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_RACES_CLASSES
+2016-10-25 16:43:27 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_RACES_CLASSES drop constraint FK_29ixnctmuorkaoxp7j2hqij0y
+2016-10-25 16:43:27 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_RACES_CLASSES
+2016-10-25 16:43:27 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_RAIDS drop constraint FK_nhxp6rak6pcui72ty3h8y0b91
+2016-10-25 16:43:27 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_RAIDS
+2016-10-25 16:43:27 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_RAIDS drop constraint FK_kql4viijftx9m2fu3h8ocdam
+2016-10-25 16:43:27 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_RAIDS
+2016-10-25 16:43:27 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_REALMS drop constraint FK_2lsd4u6pjjg7o0vkdmiu6rnt6
+2016-10-25 16:43:27 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_REALMS
+2016-10-25 16:43:27 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_RESOURCES_GROUPS drop constraint FK_eqqr8h1vjk40sqf2usnii3rx5
+2016-10-25 16:43:27 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_RESOURCES_GROUPS
+2016-10-25 16:43:27 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_RESOURCES_GROUPS drop constraint FK_443053igavkefjgyyn5yb6c7t
+2016-10-25 16:43:27 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_RESOURCES_GROUPS
+2016-10-25 16:43:27 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_SPECIALIZATIONS drop constraint FK_kelapschr9123ru5c6rrpub79
+2016-10-25 16:43:27 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_SPECIALIZATIONS
+2016-10-25 16:43:27 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_SPECIALIZATIONS drop constraint FK_dyfrpmwtuserng9ies5xhan0m
+2016-10-25 16:43:27 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_SPECIALIZATIONS
+2016-10-25 16:43:27 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_USERS drop constraint FK_521wxhf2b1y3h8vk1iibr89a4
+2016-10-25 16:43:27 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_USERS
+2016-10-25 16:43:27 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_USERS drop constraint FK_bu2yec85y3w5qu0apoiqxrpn5
+2016-10-25 16:43:27 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_USERS
+2016-10-25 16:43:27 ERROR SchemaExport:457 - HHH000388: Unsuccessful: INSERT INTO TA_USERS(USER_NAME, USER_SURNAME, USER_EMAIL, USER_PASSWORD, USER_BIRTH, USER_PHONE_NUMBER, USER_ACTIVE, USER_AGREE_LEGALS, USER_AVATAR, USER_TYPE, PLAYER_NICKNAME) VALUES('playerNameReadTest', 'playerameReadTest', 'playerEmailReadTest', 'playerPasswordReadTest', '1988-11-13', 0123456789, TRUE, TRUE, 'playerAvatarReadTest', 'PLAYER', 'playerNicknameReadTest')
+2016-10-25 16:43:27 ERROR SchemaExport:458 - integrity constraint violation: foreign key no parent; FK_BU2YEC85Y3W5QU0APOIQXRPN5 table: TA_USERS
+2016-10-25 16:43:27 INFO  SchemaExport:406 - HHH000230: Schema export complete
+2016-10-25 16:43:28 INFO  GenericApplicationContext:875 - Closing org.springframework.context.support.GenericApplicationContext@6d00a15d: startup date [Tue Oct 25 16:43:26 CEST 2016]; root of context hierarchy
+2016-10-25 16:43:28 INFO  LocalContainerEntityManagerFactoryBean:462 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2016-10-25 16:43:28 INFO  SchemaExport:344 - HHH000227: Running hbm2ddl schema export
+2016-10-25 16:43:28 INFO  SchemaExport:406 - HHH000230: Schema export complete
+2016-10-25 16:43:28 INFO  BoneCP:159 - Shutting down connection pool...
+2016-10-25 16:43:28 INFO  BoneCP:188 - Connection pool has been shutdown.
+2016-10-25 16:55:26 INFO  TestContextManager:242 - Could not instantiate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [javax/servlet/ServletContext]
+2016-10-25 16:55:26 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [applicationContext-persistence-test.xml]
+2016-10-25 16:55:26 INFO  GenericApplicationContext:515 - Refreshing org.springframework.context.support.GenericApplicationContext@6d00a15d: startup date [Tue Oct 25 16:55:26 CEST 2016]; root of context hierarchy
+2016-10-25 16:55:27 WARN  BoneCPConfig:618 - releaseHelperThreads has been deprecated -- it tends to slow down your application more.
+2016-10-25 16:55:27 INFO  LocalContainerEntityManagerFactoryBean:334 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2016-10-25 16:55:27 INFO  LogHelper:46 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2016-10-25 16:55:27 INFO  Version:54 - HHH000412: Hibernate Core {4.3.10.Final}
+2016-10-25 16:55:27 INFO  Environment:224 - HHH000205: Loaded properties from resource hibernate.properties: {hibernate.bytecode.use_reflection_optimizer=false, hibernate.hbm2ddl.import_files=import.sql, hibernate.format_sql=false, hibernate.hbm2ddl.auto=create-drop}
+2016-10-25 16:55:27 INFO  Environment:346 - HHH000021: Bytecode provider name : javassist
+2016-10-25 16:55:27 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-10-25 16:55:27 INFO  Dialect:145 - HHH000400: Using dialect: org.hibernate.dialect.HSQLDialect
+2016-10-25 16:55:28 INFO  ASTQueryTranslatorFactory:47 - HHH000397: Using ASTQueryTranslatorFactory
+2016-10-25 16:55:28 INFO  SchemaExport:344 - HHH000227: Running hbm2ddl schema export
+2016-10-25 16:55:28 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_ACHIEVEMENTS drop constraint FK_mjhgvslttb578fodlsl651872
+2016-10-25 16:55:28 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_ACHIEVEMENTS
+2016-10-25 16:55:28 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_ACHIEVEMENTS drop constraint FK_q68im35cvu8my7g9md756r5pv
+2016-10-25 16:55:28 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_ACHIEVEMENTS
+2016-10-25 16:55:28 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_ARTICLES drop constraint FK_janf737sar6b88umviy1ib0y1
+2016-10-25 16:55:28 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_ARTICLES
+2016-10-25 16:55:28 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_ARTICLES_GROUPS drop constraint FK_ron0fsnqjugb2r69ke3810dhy
+2016-10-25 16:55:28 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_ARTICLES_GROUPS
+2016-10-25 16:55:28 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_ARTICLES_GROUPS drop constraint FK_8q5axbrc3y1jju58vl58ryi99
+2016-10-25 16:55:28 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_ARTICLES_GROUPS
+2016-10-25 16:55:28 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_CHARACTERS drop constraint FK_mdgh8xpyio38ow6dt6xbysvae
+2016-10-25 16:55:28 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_CHARACTERS
+2016-10-25 16:55:28 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_CHARACTERS drop constraint FK_4osif0cr2dbkfrweo639m0735
+2016-10-25 16:55:28 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_CHARACTERS
+2016-10-25 16:55:28 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_CHARACTERS drop constraint FK_5349hgdety2tcnfnm9740s33g
+2016-10-25 16:55:28 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_CHARACTERS
+2016-10-25 16:55:28 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_CHARACTERS drop constraint FK_p7a44ggqxaiby42qq5kvqskvk
+2016-10-25 16:55:28 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_CHARACTERS
+2016-10-25 16:55:28 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_CHARACTERS drop constraint FK_bf23ke1bw8trdk8x7r64jsbo8
+2016-10-25 16:55:28 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_CHARACTERS
+2016-10-25 16:55:28 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_CHARACTERS drop constraint FK_1bm0cxppjeexqthoa48qcstj8
+2016-10-25 16:55:28 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_CHARACTERS
+2016-10-25 16:55:28 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_CHARACTERS drop constraint FK_q5hbn2s7ippolrsrvqg2v0j6t
+2016-10-25 16:55:28 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_CHARACTERS
+2016-10-25 16:55:28 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_FORUMS_CATEGORIES drop constraint FK_bkf1m16owuo5c7bbmux0fyuu9
+2016-10-25 16:55:28 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_FORUMS_CATEGORIES
+2016-10-25 16:55:28 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_FORUMS_GROUPS drop constraint FK_6tpveyrl4im2eemqa2pditmka
+2016-10-25 16:55:28 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_FORUMS_GROUPS
+2016-10-25 16:55:28 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_FORUMS_GROUPS drop constraint FK_qtaysnak2ex8pkpxvbf5v1exp
+2016-10-25 16:55:28 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_FORUMS_GROUPS
+2016-10-25 16:55:28 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_FORUMS_POSTS drop constraint FK_5nm6lw8yphi0bxxlms8p2mbvi
+2016-10-25 16:55:28 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_FORUMS_POSTS
+2016-10-25 16:55:28 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_FORUMS_POSTS drop constraint FK_ti2munw08j5ud7xfwmjcq8fbw
+2016-10-25 16:55:28 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_FORUMS_POSTS
+2016-10-25 16:55:28 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_FORUMS_POSTS drop constraint FK_6b7r5645ehhvjndwku2hv3no0
+2016-10-25 16:55:28 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_FORUMS_POSTS
+2016-10-25 16:55:28 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_FORUM_REPLY drop constraint FK_q6yyqnresffnthg3in2ur91h9
+2016-10-25 16:55:28 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_FORUM_REPLY
+2016-10-25 16:55:28 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_FORUM_REPLY drop constraint FK_80wxmerxdbvnc5gf3u8uwx79b
+2016-10-25 16:55:28 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_FORUM_REPLY
+2016-10-25 16:55:28 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_PATCHES drop constraint FK_96pdu6r0gxxx6kysskwnm6x2i
+2016-10-25 16:55:28 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_PATCHES
+2016-10-25 16:55:28 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_PATCHES drop constraint FK_iqlr8yg9l3a14s6fs0bnyi2eh
+2016-10-25 16:55:28 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_PATCHES
+2016-10-25 16:55:28 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_RACES drop constraint FK_928gmjm3jwtu42qgdfldb8inl
+2016-10-25 16:55:28 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_RACES
+2016-10-25 16:55:28 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_RACES_CLASSES drop constraint FK_es9qsb2o5lw7m1yufrhd1mmr3
+2016-10-25 16:55:28 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_RACES_CLASSES
+2016-10-25 16:55:28 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_RACES_CLASSES drop constraint FK_29ixnctmuorkaoxp7j2hqij0y
+2016-10-25 16:55:28 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_RACES_CLASSES
+2016-10-25 16:55:28 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_RAIDS drop constraint FK_nhxp6rak6pcui72ty3h8y0b91
+2016-10-25 16:55:28 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_RAIDS
+2016-10-25 16:55:28 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_RAIDS drop constraint FK_kql4viijftx9m2fu3h8ocdam
+2016-10-25 16:55:28 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_RAIDS
+2016-10-25 16:55:28 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_REALMS drop constraint FK_2lsd4u6pjjg7o0vkdmiu6rnt6
+2016-10-25 16:55:28 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_REALMS
+2016-10-25 16:55:28 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_RESOURCES_GROUPS drop constraint FK_eqqr8h1vjk40sqf2usnii3rx5
+2016-10-25 16:55:28 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_RESOURCES_GROUPS
+2016-10-25 16:55:28 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_RESOURCES_GROUPS drop constraint FK_443053igavkefjgyyn5yb6c7t
+2016-10-25 16:55:28 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_RESOURCES_GROUPS
+2016-10-25 16:55:28 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_SPECIALIZATIONS drop constraint FK_kelapschr9123ru5c6rrpub79
+2016-10-25 16:55:28 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_SPECIALIZATIONS
+2016-10-25 16:55:28 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_SPECIALIZATIONS drop constraint FK_dyfrpmwtuserng9ies5xhan0m
+2016-10-25 16:55:28 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_SPECIALIZATIONS
+2016-10-25 16:55:28 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_USERS drop constraint FK_521wxhf2b1y3h8vk1iibr89a4
+2016-10-25 16:55:28 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_USERS
+2016-10-25 16:55:28 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_USERS drop constraint FK_bu2yec85y3w5qu0apoiqxrpn5
+2016-10-25 16:55:28 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_USERS
+2016-10-25 16:55:28 ERROR SchemaExport:457 - HHH000388: Unsuccessful: INSERT INTO TA_USERS(USER_NAME, USER_SURNAME, USER_EMAIL, USER_PASSWORD, USER_BIRTH, USER_PHONE_NUMBER, USER_ACTIVE, USER_AGREE_LEGALS, USER_AVATAR, USER_TYPE, PLAYER_NICKNAME) VALUES('playerNameReadTest', 'playerameReadTest', 'playerEmailReadTest', 'playerPasswordReadTest', '1988-11-13', 0123456789, TRUE, TRUE, 'playerAvatarReadTest', 'PLAYER', 'playerNicknameReadTest')
+2016-10-25 16:55:28 ERROR SchemaExport:458 - integrity constraint violation: foreign key no parent; FK_BU2YEC85Y3W5QU0APOIQXRPN5 table: TA_USERS
+2016-10-25 16:55:28 INFO  SchemaExport:406 - HHH000230: Schema export complete
+2016-10-25 16:55:29 INFO  GenericApplicationContext:875 - Closing org.springframework.context.support.GenericApplicationContext@6d00a15d: startup date [Tue Oct 25 16:55:26 CEST 2016]; root of context hierarchy
+2016-10-25 16:55:29 INFO  LocalContainerEntityManagerFactoryBean:462 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2016-10-25 16:55:29 INFO  SchemaExport:344 - HHH000227: Running hbm2ddl schema export
+2016-10-25 16:55:29 INFO  SchemaExport:406 - HHH000230: Schema export complete
+2016-10-25 16:55:29 INFO  BoneCP:159 - Shutting down connection pool...
+2016-10-25 16:55:29 INFO  BoneCP:188 - Connection pool has been shutdown.
+2016-10-25 16:56:02 INFO  TestContextManager:242 - Could not instantiate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [javax/servlet/ServletContext]
+2016-10-25 16:56:02 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [applicationContext-persistence-test.xml]
+2016-10-25 16:56:02 INFO  GenericApplicationContext:515 - Refreshing org.springframework.context.support.GenericApplicationContext@6d00a15d: startup date [Tue Oct 25 16:56:02 CEST 2016]; root of context hierarchy
+2016-10-25 16:56:03 WARN  BoneCPConfig:618 - releaseHelperThreads has been deprecated -- it tends to slow down your application more.
+2016-10-25 16:56:03 INFO  LocalContainerEntityManagerFactoryBean:334 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2016-10-25 16:56:03 INFO  LogHelper:46 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2016-10-25 16:56:03 INFO  Version:54 - HHH000412: Hibernate Core {4.3.10.Final}
+2016-10-25 16:56:03 INFO  Environment:224 - HHH000205: Loaded properties from resource hibernate.properties: {hibernate.bytecode.use_reflection_optimizer=false, hibernate.hbm2ddl.import_files=import.sql, hibernate.format_sql=false, hibernate.hbm2ddl.auto=create-drop}
+2016-10-25 16:56:03 INFO  Environment:346 - HHH000021: Bytecode provider name : javassist
+2016-10-25 16:56:03 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-10-25 16:56:03 INFO  Dialect:145 - HHH000400: Using dialect: org.hibernate.dialect.HSQLDialect
+2016-10-25 16:56:04 INFO  ASTQueryTranslatorFactory:47 - HHH000397: Using ASTQueryTranslatorFactory
+2016-10-25 16:56:04 INFO  SchemaExport:344 - HHH000227: Running hbm2ddl schema export
+2016-10-25 16:56:04 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_ACHIEVEMENTS drop constraint FK_mjhgvslttb578fodlsl651872
+2016-10-25 16:56:04 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_ACHIEVEMENTS
+2016-10-25 16:56:04 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_ACHIEVEMENTS drop constraint FK_q68im35cvu8my7g9md756r5pv
+2016-10-25 16:56:04 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_ACHIEVEMENTS
+2016-10-25 16:56:04 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_ARTICLES drop constraint FK_janf737sar6b88umviy1ib0y1
+2016-10-25 16:56:04 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_ARTICLES
+2016-10-25 16:56:04 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_ARTICLES_GROUPS drop constraint FK_ron0fsnqjugb2r69ke3810dhy
+2016-10-25 16:56:04 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_ARTICLES_GROUPS
+2016-10-25 16:56:04 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_ARTICLES_GROUPS drop constraint FK_8q5axbrc3y1jju58vl58ryi99
+2016-10-25 16:56:04 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_ARTICLES_GROUPS
+2016-10-25 16:56:04 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_CHARACTERS drop constraint FK_mdgh8xpyio38ow6dt6xbysvae
+2016-10-25 16:56:04 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_CHARACTERS
+2016-10-25 16:56:04 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_CHARACTERS drop constraint FK_4osif0cr2dbkfrweo639m0735
+2016-10-25 16:56:04 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_CHARACTERS
+2016-10-25 16:56:04 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_CHARACTERS drop constraint FK_5349hgdety2tcnfnm9740s33g
+2016-10-25 16:56:04 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_CHARACTERS
+2016-10-25 16:56:04 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_CHARACTERS drop constraint FK_p7a44ggqxaiby42qq5kvqskvk
+2016-10-25 16:56:04 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_CHARACTERS
+2016-10-25 16:56:04 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_CHARACTERS drop constraint FK_bf23ke1bw8trdk8x7r64jsbo8
+2016-10-25 16:56:04 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_CHARACTERS
+2016-10-25 16:56:04 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_CHARACTERS drop constraint FK_1bm0cxppjeexqthoa48qcstj8
+2016-10-25 16:56:04 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_CHARACTERS
+2016-10-25 16:56:04 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_CHARACTERS drop constraint FK_q5hbn2s7ippolrsrvqg2v0j6t
+2016-10-25 16:56:04 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_CHARACTERS
+2016-10-25 16:56:04 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_FORUMS_CATEGORIES drop constraint FK_bkf1m16owuo5c7bbmux0fyuu9
+2016-10-25 16:56:04 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_FORUMS_CATEGORIES
+2016-10-25 16:56:04 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_FORUMS_GROUPS drop constraint FK_6tpveyrl4im2eemqa2pditmka
+2016-10-25 16:56:04 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_FORUMS_GROUPS
+2016-10-25 16:56:04 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_FORUMS_GROUPS drop constraint FK_qtaysnak2ex8pkpxvbf5v1exp
+2016-10-25 16:56:04 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_FORUMS_GROUPS
+2016-10-25 16:56:04 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_FORUMS_POSTS drop constraint FK_5nm6lw8yphi0bxxlms8p2mbvi
+2016-10-25 16:56:04 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_FORUMS_POSTS
+2016-10-25 16:56:04 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_FORUMS_POSTS drop constraint FK_ti2munw08j5ud7xfwmjcq8fbw
+2016-10-25 16:56:04 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_FORUMS_POSTS
+2016-10-25 16:56:04 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_FORUMS_POSTS drop constraint FK_6b7r5645ehhvjndwku2hv3no0
+2016-10-25 16:56:04 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_FORUMS_POSTS
+2016-10-25 16:56:04 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_FORUM_REPLY drop constraint FK_q6yyqnresffnthg3in2ur91h9
+2016-10-25 16:56:04 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_FORUM_REPLY
+2016-10-25 16:56:04 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_FORUM_REPLY drop constraint FK_80wxmerxdbvnc5gf3u8uwx79b
+2016-10-25 16:56:04 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_FORUM_REPLY
+2016-10-25 16:56:04 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_PATCHES drop constraint FK_96pdu6r0gxxx6kysskwnm6x2i
+2016-10-25 16:56:04 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_PATCHES
+2016-10-25 16:56:04 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_PATCHES drop constraint FK_iqlr8yg9l3a14s6fs0bnyi2eh
+2016-10-25 16:56:04 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_PATCHES
+2016-10-25 16:56:04 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_RACES drop constraint FK_928gmjm3jwtu42qgdfldb8inl
+2016-10-25 16:56:04 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_RACES
+2016-10-25 16:56:04 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_RACES_CLASSES drop constraint FK_es9qsb2o5lw7m1yufrhd1mmr3
+2016-10-25 16:56:04 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_RACES_CLASSES
+2016-10-25 16:56:04 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_RACES_CLASSES drop constraint FK_29ixnctmuorkaoxp7j2hqij0y
+2016-10-25 16:56:04 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_RACES_CLASSES
+2016-10-25 16:56:04 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_RAIDS drop constraint FK_nhxp6rak6pcui72ty3h8y0b91
+2016-10-25 16:56:04 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_RAIDS
+2016-10-25 16:56:04 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_RAIDS drop constraint FK_kql4viijftx9m2fu3h8ocdam
+2016-10-25 16:56:04 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_RAIDS
+2016-10-25 16:56:04 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_REALMS drop constraint FK_2lsd4u6pjjg7o0vkdmiu6rnt6
+2016-10-25 16:56:04 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_REALMS
+2016-10-25 16:56:04 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_RESOURCES_GROUPS drop constraint FK_eqqr8h1vjk40sqf2usnii3rx5
+2016-10-25 16:56:04 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_RESOURCES_GROUPS
+2016-10-25 16:56:04 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_RESOURCES_GROUPS drop constraint FK_443053igavkefjgyyn5yb6c7t
+2016-10-25 16:56:04 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_RESOURCES_GROUPS
+2016-10-25 16:56:04 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_SPECIALIZATIONS drop constraint FK_kelapschr9123ru5c6rrpub79
+2016-10-25 16:56:04 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_SPECIALIZATIONS
+2016-10-25 16:56:04 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_SPECIALIZATIONS drop constraint FK_dyfrpmwtuserng9ies5xhan0m
+2016-10-25 16:56:04 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_SPECIALIZATIONS
+2016-10-25 16:56:04 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_USERS drop constraint FK_521wxhf2b1y3h8vk1iibr89a4
+2016-10-25 16:56:04 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_USERS
+2016-10-25 16:56:04 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_USERS drop constraint FK_bu2yec85y3w5qu0apoiqxrpn5
+2016-10-25 16:56:04 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_USERS
+2016-10-25 16:56:04 ERROR SchemaExport:457 - HHH000388: Unsuccessful: INSERT INTO TA_USERS(USER_NAME, USER_SURNAME, USER_EMAIL, USER_PASSWORD, USER_BIRTH, USER_PHONE_NUMBER, USER_ACTIVE, USER_AGREE_LEGALS, USER_AVATAR, USER_TYPE, PLAYER_NICKNAME, ID_GROUP) VALUES('playerNameReadTest', 'playerameReadTest', 'playerEmailReadTest', 'playerPasswordReadTest', '1988-11-13', 0123456789, TRUE, TRUE, 'playerAvatarReadTest', 'PLAYER', 'playerNicknameReadTest', 1)
+2016-10-25 16:56:04 ERROR SchemaExport:458 - integrity constraint violation: foreign key no parent; FK_521WXHF2B1Y3H8VK1IIBR89A4 table: TA_USERS
+2016-10-25 16:56:04 INFO  SchemaExport:406 - HHH000230: Schema export complete
+2016-10-25 16:56:05 INFO  GenericApplicationContext:875 - Closing org.springframework.context.support.GenericApplicationContext@6d00a15d: startup date [Tue Oct 25 16:56:02 CEST 2016]; root of context hierarchy
+2016-10-25 16:56:05 INFO  LocalContainerEntityManagerFactoryBean:462 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2016-10-25 16:56:05 INFO  SchemaExport:344 - HHH000227: Running hbm2ddl schema export
+2016-10-25 16:56:05 INFO  SchemaExport:406 - HHH000230: Schema export complete
+2016-10-25 16:56:05 INFO  BoneCP:159 - Shutting down connection pool...
+2016-10-25 16:56:05 INFO  BoneCP:188 - Connection pool has been shutdown.
+2016-10-25 16:57:35 INFO  TestContextManager:242 - Could not instantiate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [javax/servlet/ServletContext]
+2016-10-25 16:57:35 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [applicationContext-persistence-test.xml]
+2016-10-25 16:57:35 INFO  GenericApplicationContext:515 - Refreshing org.springframework.context.support.GenericApplicationContext@6d00a15d: startup date [Tue Oct 25 16:57:35 CEST 2016]; root of context hierarchy
+2016-10-25 16:57:36 WARN  BoneCPConfig:618 - releaseHelperThreads has been deprecated -- it tends to slow down your application more.
+2016-10-25 16:57:36 INFO  LocalContainerEntityManagerFactoryBean:334 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2016-10-25 16:57:36 INFO  LogHelper:46 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2016-10-25 16:57:36 INFO  Version:54 - HHH000412: Hibernate Core {4.3.10.Final}
+2016-10-25 16:57:36 INFO  Environment:224 - HHH000205: Loaded properties from resource hibernate.properties: {hibernate.bytecode.use_reflection_optimizer=false, hibernate.hbm2ddl.import_files=import.sql, hibernate.format_sql=false, hibernate.hbm2ddl.auto=create-drop}
+2016-10-25 16:57:36 INFO  Environment:346 - HHH000021: Bytecode provider name : javassist
+2016-10-25 16:57:36 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-10-25 16:57:36 INFO  Dialect:145 - HHH000400: Using dialect: org.hibernate.dialect.HSQLDialect
+2016-10-25 16:57:37 INFO  ASTQueryTranslatorFactory:47 - HHH000397: Using ASTQueryTranslatorFactory
+2016-10-25 16:57:37 INFO  SchemaExport:344 - HHH000227: Running hbm2ddl schema export
+2016-10-25 16:57:37 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_ACHIEVEMENTS drop constraint FK_mjhgvslttb578fodlsl651872
+2016-10-25 16:57:37 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_ACHIEVEMENTS
+2016-10-25 16:57:37 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_ACHIEVEMENTS drop constraint FK_q68im35cvu8my7g9md756r5pv
+2016-10-25 16:57:37 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_ACHIEVEMENTS
+2016-10-25 16:57:37 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_ARTICLES drop constraint FK_janf737sar6b88umviy1ib0y1
+2016-10-25 16:57:37 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_ARTICLES
+2016-10-25 16:57:37 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_ARTICLES_GROUPS drop constraint FK_ron0fsnqjugb2r69ke3810dhy
+2016-10-25 16:57:37 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_ARTICLES_GROUPS
+2016-10-25 16:57:37 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_ARTICLES_GROUPS drop constraint FK_8q5axbrc3y1jju58vl58ryi99
+2016-10-25 16:57:37 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_ARTICLES_GROUPS
+2016-10-25 16:57:37 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_CHARACTERS drop constraint FK_mdgh8xpyio38ow6dt6xbysvae
+2016-10-25 16:57:37 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_CHARACTERS
+2016-10-25 16:57:37 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_CHARACTERS drop constraint FK_4osif0cr2dbkfrweo639m0735
+2016-10-25 16:57:37 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_CHARACTERS
+2016-10-25 16:57:37 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_CHARACTERS drop constraint FK_5349hgdety2tcnfnm9740s33g
+2016-10-25 16:57:37 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_CHARACTERS
+2016-10-25 16:57:37 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_CHARACTERS drop constraint FK_p7a44ggqxaiby42qq5kvqskvk
+2016-10-25 16:57:37 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_CHARACTERS
+2016-10-25 16:57:37 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_CHARACTERS drop constraint FK_bf23ke1bw8trdk8x7r64jsbo8
+2016-10-25 16:57:37 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_CHARACTERS
+2016-10-25 16:57:37 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_CHARACTERS drop constraint FK_1bm0cxppjeexqthoa48qcstj8
+2016-10-25 16:57:37 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_CHARACTERS
+2016-10-25 16:57:37 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_CHARACTERS drop constraint FK_q5hbn2s7ippolrsrvqg2v0j6t
+2016-10-25 16:57:37 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_CHARACTERS
+2016-10-25 16:57:37 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_FORUMS_CATEGORIES drop constraint FK_bkf1m16owuo5c7bbmux0fyuu9
+2016-10-25 16:57:37 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_FORUMS_CATEGORIES
+2016-10-25 16:57:37 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_FORUMS_GROUPS drop constraint FK_6tpveyrl4im2eemqa2pditmka
+2016-10-25 16:57:37 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_FORUMS_GROUPS
+2016-10-25 16:57:37 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_FORUMS_GROUPS drop constraint FK_qtaysnak2ex8pkpxvbf5v1exp
+2016-10-25 16:57:37 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_FORUMS_GROUPS
+2016-10-25 16:57:37 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_FORUMS_POSTS drop constraint FK_5nm6lw8yphi0bxxlms8p2mbvi
+2016-10-25 16:57:37 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_FORUMS_POSTS
+2016-10-25 16:57:37 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_FORUMS_POSTS drop constraint FK_ti2munw08j5ud7xfwmjcq8fbw
+2016-10-25 16:57:37 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_FORUMS_POSTS
+2016-10-25 16:57:37 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_FORUMS_POSTS drop constraint FK_6b7r5645ehhvjndwku2hv3no0
+2016-10-25 16:57:37 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_FORUMS_POSTS
+2016-10-25 16:57:37 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_FORUM_REPLY drop constraint FK_q6yyqnresffnthg3in2ur91h9
+2016-10-25 16:57:37 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_FORUM_REPLY
+2016-10-25 16:57:37 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_FORUM_REPLY drop constraint FK_80wxmerxdbvnc5gf3u8uwx79b
+2016-10-25 16:57:37 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_FORUM_REPLY
+2016-10-25 16:57:37 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_PATCHES drop constraint FK_96pdu6r0gxxx6kysskwnm6x2i
+2016-10-25 16:57:37 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_PATCHES
+2016-10-25 16:57:37 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_PATCHES drop constraint FK_iqlr8yg9l3a14s6fs0bnyi2eh
+2016-10-25 16:57:37 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_PATCHES
+2016-10-25 16:57:37 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_RACES drop constraint FK_928gmjm3jwtu42qgdfldb8inl
+2016-10-25 16:57:37 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_RACES
+2016-10-25 16:57:37 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_RACES_CLASSES drop constraint FK_es9qsb2o5lw7m1yufrhd1mmr3
+2016-10-25 16:57:37 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_RACES_CLASSES
+2016-10-25 16:57:37 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_RACES_CLASSES drop constraint FK_29ixnctmuorkaoxp7j2hqij0y
+2016-10-25 16:57:37 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_RACES_CLASSES
+2016-10-25 16:57:37 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_RAIDS drop constraint FK_nhxp6rak6pcui72ty3h8y0b91
+2016-10-25 16:57:37 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_RAIDS
+2016-10-25 16:57:37 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_RAIDS drop constraint FK_kql4viijftx9m2fu3h8ocdam
+2016-10-25 16:57:37 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_RAIDS
+2016-10-25 16:57:37 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_REALMS drop constraint FK_2lsd4u6pjjg7o0vkdmiu6rnt6
+2016-10-25 16:57:37 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_REALMS
+2016-10-25 16:57:37 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_RESOURCES_GROUPS drop constraint FK_eqqr8h1vjk40sqf2usnii3rx5
+2016-10-25 16:57:37 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_RESOURCES_GROUPS
+2016-10-25 16:57:37 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_RESOURCES_GROUPS drop constraint FK_443053igavkefjgyyn5yb6c7t
+2016-10-25 16:57:37 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_RESOURCES_GROUPS
+2016-10-25 16:57:37 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_SPECIALIZATIONS drop constraint FK_kelapschr9123ru5c6rrpub79
+2016-10-25 16:57:37 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_SPECIALIZATIONS
+2016-10-25 16:57:37 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_SPECIALIZATIONS drop constraint FK_dyfrpmwtuserng9ies5xhan0m
+2016-10-25 16:57:37 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_SPECIALIZATIONS
+2016-10-25 16:57:37 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_USERS drop constraint FK_521wxhf2b1y3h8vk1iibr89a4
+2016-10-25 16:57:37 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_USERS
+2016-10-25 16:57:37 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_USERS drop constraint FK_bu2yec85y3w5qu0apoiqxrpn5
+2016-10-25 16:57:37 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_USERS
+2016-10-25 16:57:37 INFO  SchemaExport:406 - HHH000230: Schema export complete
+2016-10-25 16:57:38 INFO  GenericApplicationContext:875 - Closing org.springframework.context.support.GenericApplicationContext@6d00a15d: startup date [Tue Oct 25 16:57:35 CEST 2016]; root of context hierarchy
+2016-10-25 16:57:38 INFO  LocalContainerEntityManagerFactoryBean:462 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2016-10-25 16:57:38 INFO  SchemaExport:344 - HHH000227: Running hbm2ddl schema export
+2016-10-25 16:57:38 INFO  SchemaExport:406 - HHH000230: Schema export complete
+2016-10-25 16:57:38 INFO  BoneCP:159 - Shutting down connection pool...
+2016-10-25 16:57:38 INFO  BoneCP:188 - Connection pool has been shutdown.
+2016-10-25 16:59:59 INFO  TestContextManager:242 - Could not instantiate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [javax/servlet/ServletContext]
+2016-10-25 16:59:59 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [applicationContext-persistence-test.xml]
+2016-10-25 17:00:00 INFO  GenericApplicationContext:515 - Refreshing org.springframework.context.support.GenericApplicationContext@6d00a15d: startup date [Tue Oct 25 17:00:00 CEST 2016]; root of context hierarchy
+2016-10-25 17:00:00 WARN  BoneCPConfig:618 - releaseHelperThreads has been deprecated -- it tends to slow down your application more.
+2016-10-25 17:00:00 INFO  LocalContainerEntityManagerFactoryBean:334 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2016-10-25 17:00:00 INFO  LogHelper:46 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2016-10-25 17:00:00 INFO  Version:54 - HHH000412: Hibernate Core {4.3.10.Final}
+2016-10-25 17:00:00 INFO  Environment:224 - HHH000205: Loaded properties from resource hibernate.properties: {hibernate.bytecode.use_reflection_optimizer=false, hibernate.hbm2ddl.import_files=import.sql, hibernate.format_sql=false, hibernate.hbm2ddl.auto=create-drop}
+2016-10-25 17:00:00 INFO  Environment:346 - HHH000021: Bytecode provider name : javassist
+2016-10-25 17:00:01 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-10-25 17:00:01 INFO  Dialect:145 - HHH000400: Using dialect: org.hibernate.dialect.HSQLDialect
+2016-10-25 17:00:01 INFO  ASTQueryTranslatorFactory:47 - HHH000397: Using ASTQueryTranslatorFactory
+2016-10-25 17:00:02 INFO  SchemaExport:344 - HHH000227: Running hbm2ddl schema export
+2016-10-25 17:00:02 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_ACHIEVEMENTS drop constraint FK_mjhgvslttb578fodlsl651872
+2016-10-25 17:00:02 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_ACHIEVEMENTS
+2016-10-25 17:00:02 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_ACHIEVEMENTS drop constraint FK_q68im35cvu8my7g9md756r5pv
+2016-10-25 17:00:02 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_ACHIEVEMENTS
+2016-10-25 17:00:02 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_ARTICLES drop constraint FK_janf737sar6b88umviy1ib0y1
+2016-10-25 17:00:02 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_ARTICLES
+2016-10-25 17:00:02 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_ARTICLES_GROUPS drop constraint FK_ron0fsnqjugb2r69ke3810dhy
+2016-10-25 17:00:02 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_ARTICLES_GROUPS
+2016-10-25 17:00:02 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_ARTICLES_GROUPS drop constraint FK_8q5axbrc3y1jju58vl58ryi99
+2016-10-25 17:00:02 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_ARTICLES_GROUPS
+2016-10-25 17:00:02 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_CHARACTERS drop constraint FK_mdgh8xpyio38ow6dt6xbysvae
+2016-10-25 17:00:02 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_CHARACTERS
+2016-10-25 17:00:02 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_CHARACTERS drop constraint FK_4osif0cr2dbkfrweo639m0735
+2016-10-25 17:00:02 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_CHARACTERS
+2016-10-25 17:00:02 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_CHARACTERS drop constraint FK_5349hgdety2tcnfnm9740s33g
+2016-10-25 17:00:02 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_CHARACTERS
+2016-10-25 17:00:02 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_CHARACTERS drop constraint FK_p7a44ggqxaiby42qq5kvqskvk
+2016-10-25 17:00:02 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_CHARACTERS
+2016-10-25 17:00:02 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_CHARACTERS drop constraint FK_bf23ke1bw8trdk8x7r64jsbo8
+2016-10-25 17:00:02 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_CHARACTERS
+2016-10-25 17:00:02 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_CHARACTERS drop constraint FK_1bm0cxppjeexqthoa48qcstj8
+2016-10-25 17:00:02 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_CHARACTERS
+2016-10-25 17:00:02 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_CHARACTERS drop constraint FK_q5hbn2s7ippolrsrvqg2v0j6t
+2016-10-25 17:00:02 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_CHARACTERS
+2016-10-25 17:00:02 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_FORUMS_CATEGORIES drop constraint FK_bkf1m16owuo5c7bbmux0fyuu9
+2016-10-25 17:00:02 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_FORUMS_CATEGORIES
+2016-10-25 17:00:02 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_FORUMS_GROUPS drop constraint FK_6tpveyrl4im2eemqa2pditmka
+2016-10-25 17:00:02 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_FORUMS_GROUPS
+2016-10-25 17:00:02 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_FORUMS_GROUPS drop constraint FK_qtaysnak2ex8pkpxvbf5v1exp
+2016-10-25 17:00:02 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_FORUMS_GROUPS
+2016-10-25 17:00:02 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_FORUMS_POSTS drop constraint FK_5nm6lw8yphi0bxxlms8p2mbvi
+2016-10-25 17:00:02 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_FORUMS_POSTS
+2016-10-25 17:00:02 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_FORUMS_POSTS drop constraint FK_ti2munw08j5ud7xfwmjcq8fbw
+2016-10-25 17:00:02 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_FORUMS_POSTS
+2016-10-25 17:00:02 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_FORUMS_POSTS drop constraint FK_6b7r5645ehhvjndwku2hv3no0
+2016-10-25 17:00:02 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_FORUMS_POSTS
+2016-10-25 17:00:02 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_FORUM_REPLY drop constraint FK_q6yyqnresffnthg3in2ur91h9
+2016-10-25 17:00:02 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_FORUM_REPLY
+2016-10-25 17:00:02 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_FORUM_REPLY drop constraint FK_80wxmerxdbvnc5gf3u8uwx79b
+2016-10-25 17:00:02 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_FORUM_REPLY
+2016-10-25 17:00:02 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_PATCHES drop constraint FK_96pdu6r0gxxx6kysskwnm6x2i
+2016-10-25 17:00:02 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_PATCHES
+2016-10-25 17:00:02 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_PATCHES drop constraint FK_iqlr8yg9l3a14s6fs0bnyi2eh
+2016-10-25 17:00:02 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_PATCHES
+2016-10-25 17:00:02 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_RACES drop constraint FK_928gmjm3jwtu42qgdfldb8inl
+2016-10-25 17:00:02 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_RACES
+2016-10-25 17:00:02 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_RACES_CLASSES drop constraint FK_es9qsb2o5lw7m1yufrhd1mmr3
+2016-10-25 17:00:02 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_RACES_CLASSES
+2016-10-25 17:00:02 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_RACES_CLASSES drop constraint FK_29ixnctmuorkaoxp7j2hqij0y
+2016-10-25 17:00:02 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_RACES_CLASSES
+2016-10-25 17:00:02 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_RAIDS drop constraint FK_nhxp6rak6pcui72ty3h8y0b91
+2016-10-25 17:00:02 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_RAIDS
+2016-10-25 17:00:02 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_RAIDS drop constraint FK_kql4viijftx9m2fu3h8ocdam
+2016-10-25 17:00:02 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_RAIDS
+2016-10-25 17:00:02 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_REALMS drop constraint FK_2lsd4u6pjjg7o0vkdmiu6rnt6
+2016-10-25 17:00:02 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_REALMS
+2016-10-25 17:00:02 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_RESOURCES_GROUPS drop constraint FK_eqqr8h1vjk40sqf2usnii3rx5
+2016-10-25 17:00:02 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_RESOURCES_GROUPS
+2016-10-25 17:00:02 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_RESOURCES_GROUPS drop constraint FK_443053igavkefjgyyn5yb6c7t
+2016-10-25 17:00:02 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_RESOURCES_GROUPS
+2016-10-25 17:00:02 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_SPECIALIZATIONS drop constraint FK_kelapschr9123ru5c6rrpub79
+2016-10-25 17:00:02 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_SPECIALIZATIONS
+2016-10-25 17:00:02 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_SPECIALIZATIONS drop constraint FK_dyfrpmwtuserng9ies5xhan0m
+2016-10-25 17:00:02 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_SPECIALIZATIONS
+2016-10-25 17:00:02 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_USERS drop constraint FK_521wxhf2b1y3h8vk1iibr89a4
+2016-10-25 17:00:02 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_USERS
+2016-10-25 17:00:02 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table TA_USERS drop constraint FK_bu2yec85y3w5qu0apoiqxrpn5
+2016-10-25 17:00:02 ERROR SchemaExport:427 - user lacks privilege or object not found: PUBLIC.TA_USERS
+2016-10-25 17:00:02 INFO  SchemaExport:406 - HHH000230: Schema export complete
+2016-10-25 17:00:02 INFO  GenericApplicationContext:875 - Closing org.springframework.context.support.GenericApplicationContext@6d00a15d: startup date [Tue Oct 25 17:00:00 CEST 2016]; root of context hierarchy
+2016-10-25 17:00:02 INFO  LocalContainerEntityManagerFactoryBean:462 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2016-10-25 17:00:02 INFO  SchemaExport:344 - HHH000227: Running hbm2ddl schema export
+2016-10-25 17:00:02 INFO  SchemaExport:406 - HHH000230: Schema export complete
+2016-10-25 17:00:02 INFO  BoneCP:159 - Shutting down connection pool...
+2016-10-25 17:00:02 INFO  BoneCP:188 - Connection pool has been shutdown.

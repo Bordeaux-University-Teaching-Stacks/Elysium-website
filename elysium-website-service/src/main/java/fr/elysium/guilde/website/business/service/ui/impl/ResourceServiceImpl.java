@@ -26,7 +26,7 @@ public class ResourceServiceImpl implements ResourceService {
    */
   @Override
   public List<Resource> listMainResources(int idGroup) {
-    return resourceRepository.findByGroupId(idGroup);
+    return resourceRepository.findByGroupsId(idGroup);
   }
 
 }
