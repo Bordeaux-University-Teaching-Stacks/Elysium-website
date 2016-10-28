@@ -1,4 +1,4 @@
-package fr.elysium.guilde.website.business.service.media.impl;
+package fr.elysium.guilde.website.service.media.impl;
 
 import java.util.List;
 
@@ -7,9 +7,9 @@ import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
-import fr.elysium.guilde.website.business.service.media.ArticleService;
 import fr.elysium.guilde.website.persistence.entity.media.Article;
 import fr.elysium.guilde.website.persistence.repository.media.ArticleRepository;
+import fr.elysium.guilde.website.service.media.ArticleService;
 
 /**
  * <b>ArticleServiceImpl</b> implementation of ArticleService

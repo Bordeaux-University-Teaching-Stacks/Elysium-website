@@ -1,4 +1,4 @@
-package fr.elysium.guilde.website.business.service.media;
+package fr.elysium.guilde.website.service.media;
 
 import java.util.List;
 

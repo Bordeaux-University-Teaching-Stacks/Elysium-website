@@ -106,6 +106,12 @@
 				<artifactId>elysium-website-persistence</artifactId>
 				<version>${project.version}</version>
 			</dependency>
+			<!-- ELYSIUM WEBSITE COMMONS -->
+			<dependency>
+				<groupId>${project.groupId}</groupId>
+				<artifactId>elysium-website-commons</artifactId>
+				<version>${project.version}</version>
+			</dependency>
 			<!-- JUnit testing framework -->
 			<dependency>
 				<groupId>junit</groupId>
@@ -322,5 +328,6 @@
 		<module>elysium-website-service</module>
 		<module>elysium-website-business</module>
 		<module>elysium-website-presentation</module>
+		<module>elysium-website-commons</module>
 	</modules>
 </project>

@@ -2,8 +2,8 @@ package fr.elysium.guilde.website.business.service.ui;
 
 import java.util.List;
 
+import fr.elysium.guilde.website.business.bo.ui.ResourceBO;
 import fr.elysium.guilde.website.persistence.entity.acl.Group;
-import fr.elysium.guilde.website.persistence.entity.ui.Resource;
 
 /**
  * <b>ResourceBusinessService</b> describe the Resources business rules
@@ -18,5 +18,5 @@ public interface ResourceBusinessService {
    * 
    * @return
    */
-  List<Resource> listMainMenu(Group group);
+  List<ResourceBO> listMainMenu(Group group);
 }

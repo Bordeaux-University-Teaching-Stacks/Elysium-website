@@ -1,4 +1,4 @@
-package fr.elysium.guilde.website.business.service.acl;
+package fr.elysium.guilde.website.service.acl;
 
 import java.util.List;
 

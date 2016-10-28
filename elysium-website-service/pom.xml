@@ -15,6 +15,11 @@
 			<groupId>${project.groupId}</groupId>
 			<artifactId>elysium-website-persistence</artifactId>
 		</dependency>
+		<!-- ELYSIUM WEBSITE COMMONS -->
+		<dependency>
+			<groupId>${project.groupId}</groupId>
+			<artifactId>elysium-website-commons</artifactId>
+		</dependency>
 		<!-- DOZER -->
 		<dependency>
 			<groupId>net.sf.dozer</groupId>

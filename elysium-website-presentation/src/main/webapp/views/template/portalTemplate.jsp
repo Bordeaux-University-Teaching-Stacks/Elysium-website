@@ -5,6 +5,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
+<link rel="shortcut icon" type="image/x-icon" href="<c:url value="/resources/img/favicon.png"/>">
 <link type="text/css" rel="stylesheet" href="<c:url value="/resources/css/materialize.min.css"/>"  media="screen,projection"/>
 <link type="text/css" rel="stylesheet" href="<c:url value="/resources/css/style.css"/>"/>
 <link type="text/css" rel="stylesheet" href="<c:url value="/resources/css/slider.css"/>"/>
@@ -16,12 +17,12 @@
 	<div><tiles:insertAttribute name="header"/></div>  
 	<div><tiles:insertAttribute name="menu"/></div>  
 	<div class="row">
-		<div class="col s1 m1 l1"></div>
-		<div class="col s10 m10 l10">
+		<div class="col s2 m2 l2"></div>
+		<div class="col s8 m8 l8">
 			<tiles:insertAttribute name="slider"/>
-			<tiles:insertAttribute name="body"/>
+			<tiles:insertAttribute name="videos"/>
 		</div>
-		<div class="col s1 m1 l1"></div>
+		<div class="col s2 m2 l2"></div>
 	</div>  
 	<div><tiles:insertAttribute name="footer"/></div>
 	

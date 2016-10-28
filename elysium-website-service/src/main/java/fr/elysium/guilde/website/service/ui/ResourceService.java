@@ -1,8 +1,8 @@
-package fr.elysium.guilde.website.business.service.ui;
+package fr.elysium.guilde.website.service.ui;
 
 import java.util.List;
 
-import fr.elysium.guilde.website.persistence.entity.ui.Resource;
+import fr.elysium.guilde.website.service.dto.ui.ResourceDTO;
 
 /**
  * <b>ResourceService</b>
@@ -17,6 +17,6 @@ public interface ResourceService {
    * 
    * @return
    */
-  List<Resource> listMainResources(int idGroup);
+  List<ResourceDTO> listMainResources(int idGroup);
 
 }

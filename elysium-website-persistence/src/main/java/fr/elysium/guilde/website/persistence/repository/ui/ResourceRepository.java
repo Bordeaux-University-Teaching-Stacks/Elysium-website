@@ -20,6 +20,6 @@ public interface ResourceRepository extends JpaRepository<Resource, Long> {
    * @param idGroup
    * @return
    */
-  List<Resource> findByGroupsId(int idGroup);
+  List<Resource> findByGroupsIdOrderByAppearanceOrderAsc(int idGroup);
 
 }
