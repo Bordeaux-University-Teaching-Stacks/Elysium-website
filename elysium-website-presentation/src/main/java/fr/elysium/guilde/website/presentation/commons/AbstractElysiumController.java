@@ -1,4 +1,4 @@
-package fr.elysium.guilde.website.presentation.controller.commons;
+package fr.elysium.guilde.website.presentation.commons;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -8,7 +8,7 @@ import org.springframework.web.servlet.ModelAndView;
 import fr.elysium.guilde.website.persistence.entity.acl.Group;
 import fr.elysium.guilde.website.persistence.entity.acl.User;
 import fr.elysium.guilde.website.persistence.entity.acl.enums.GroupEnum;
-import fr.elysium.guilde.website.presentation.controller.portal.session.UserSession;
+import fr.elysium.guilde.website.presentation.portal.session.UserSession;
 
 /**
  * Commons controllers actions

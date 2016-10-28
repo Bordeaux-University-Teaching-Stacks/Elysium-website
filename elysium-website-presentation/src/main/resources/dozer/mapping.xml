@@ -3,6 +3,7 @@
 	xsi:schemaLocation="http://dozer.sourceforge.net
 http://dozer.sourceforge.net/schema/beanmapping.xsd">
 
+	<!-- Resource Objects -->
 	<mapping>
 		<class-a>fr.elysium.guilde.website.persistence.entity.ui.Resource</class-a>
 		<class-b>fr.elysium.guilde.website.service.dto.ui.ResourceDTO</class-b>
@@ -10,6 +11,10 @@ http://dozer.sourceforge.net/schema/beanmapping.xsd">
 	<mapping>
 		<class-a>fr.elysium.guilde.website.service.dto.ui.ResourceDTO</class-a>
 		<class-b>fr.elysium.guilde.website.business.bo.ui.ResourceBO</class-b>
+	</mapping>
+	<mapping>
+		<class-a>fr.elysium.guilde.website.business.bo.ui.ResourceBO</class-a>
+		<class-b>fr.elysium.guilde.website.presentation.portal.vo.ResourceVO</class-b>
 	</mapping>
 
 </mappings>

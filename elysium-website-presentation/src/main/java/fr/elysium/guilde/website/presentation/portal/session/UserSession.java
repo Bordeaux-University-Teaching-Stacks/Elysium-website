@@ -1,4 +1,4 @@
-package fr.elysium.guilde.website.presentation.controller.portal.session;
+package fr.elysium.guilde.website.presentation.portal.session;
 
 import fr.elysium.guilde.website.persistence.entity.acl.Group;
 import fr.elysium.guilde.website.persistence.entity.acl.User;

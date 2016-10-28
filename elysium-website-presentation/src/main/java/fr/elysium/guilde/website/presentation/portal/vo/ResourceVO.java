@@ -1,12 +1,19 @@
-package fr.elysium.guilde.website.business.bo.ui;
+package fr.elysium.guilde.website.presentation.portal.vo;
+
+import java.io.Serializable;
 
 /**
- * <b>ResourceBO</b> Resource business object
+ * <b>ResourceVO</b> Resource value object
  * 
  * @author Meidi
  *
  */
-public class ResourceBO {
+public class ResourceVO implements Serializable {
+
+  /**
+   * Serial ID
+   */
+  private static final long serialVersionUID = 4148066868056605256L;
 
   /**
    * Resource name

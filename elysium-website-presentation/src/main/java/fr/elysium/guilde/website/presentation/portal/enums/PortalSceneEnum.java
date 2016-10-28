@@ -1,4 +1,4 @@
-package fr.elysium.guilde.website.presentation.controller.portal.enums;
+package fr.elysium.guilde.website.presentation.portal.enums;
 
 /**
  * <b>PortalSceneEnum</b> list the portal scenes
