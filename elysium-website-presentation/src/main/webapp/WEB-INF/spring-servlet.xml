@@ -50,9 +50,7 @@
 		<property name="defaultLocale" value="fr"></property>
 	</bean>
 
-	<bean
-		class="org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping"
-		id="handlerMapping">
+	<bean class="org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping" id="handlerMapping">
 		<property name="interceptors">
 			<ref bean="localeChangeInterceptor"></ref>
 		</property>

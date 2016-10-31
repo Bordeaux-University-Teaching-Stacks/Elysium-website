@@ -105,7 +105,7 @@ public abstract class User {
    * User forum posts
    */
   @OneToMany(fetch = FetchType.LAZY)
-  @JoinColumn(name = "ID_FORUM_POST")
+  @JoinColumn(name = "ID_USER")
   protected List<ForumPost> posts;
 
   /**

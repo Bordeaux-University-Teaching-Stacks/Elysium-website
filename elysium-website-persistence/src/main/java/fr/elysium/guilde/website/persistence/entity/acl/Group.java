@@ -64,7 +64,7 @@ public class Group {
    * Group users
    */
   @OneToMany(fetch = FetchType.LAZY)
-  @JoinColumn(name = "ID_USER")
+  @JoinColumn(name = "ID_GROUP")
   private List<User> users = new ArrayList<User>();
 
   /**
