@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import fr.elysium.guilde.website.persistence.entity.media.Article;
 import fr.elysium.guilde.website.persistence.repository.media.ArticleRepository;
@@ -18,6 +19,7 @@ import fr.elysium.guilde.website.service.media.ArticleService;
  *
  */
 @Service("ArticleService")
+@Transactional
 public class ArticleServiceImpl implements ArticleService {
 
   @Autowired
@@ -26,6 +28,7 @@ public class ArticleServiceImpl implements ArticleService {
   /**
    * {@inheritDoc}
    */
+  @Transactional(readOnly=true)
   @Override
   public List<Article> listLastNews(int nbNews) {
     Pageable nbNewsLimit = new PageRequest(0, nbNews);

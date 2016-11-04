@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.SessionAttributes;
 import org.springframework.web.servlet.ModelAndView;
 
-import fr.elysium.guilde.website.business.service.ui.ArticleBusinessService;
+import fr.elysium.guilde.website.business.service.media.ArticleBusinessService;
 import fr.elysium.guilde.website.business.service.ui.ResourceBusinessService;
 import fr.elysium.guilde.website.commons.utils.DozerUtils;
 import fr.elysium.guilde.website.presentation.commons.AbstractElysiumController;
