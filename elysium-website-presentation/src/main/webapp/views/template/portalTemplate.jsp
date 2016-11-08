@@ -6,6 +6,7 @@
 <html>
 <head>
 <link rel="shortcut icon" type="image/x-icon" href="<c:url value="/resources/img/favicon.png"/>">
+<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 <link type="text/css" rel="stylesheet" href="<c:url value="/resources/css/materialize.min.css"/>"  media="screen,projection"/>
 <link type="text/css" rel="stylesheet" href="<c:url value="/resources/css/style.css"/>"/>
 <link type="text/css" rel="stylesheet" href="<c:url value="/resources/css/slider.css"/>"/>
@@ -29,6 +30,7 @@
 	<script type="text/javascript" src="<c:url value="/resources/js/jquery-3.1.1.min.js"/>"></script>
 	<script type="text/javascript" src="<c:url value="/resources/js/materialize.min.js"/>"></script>
 	<script type="text/javascript" src="<c:url value="/resources/js/slider.plugin.js" />"></script>
+	<script type="text/javascript" src="<c:url value="/resources/js/commons.js" />"></script>
 	<script type="text/javascript" src="<c:url value="/resources/js/slider.js" />"></script>
 </body>
 </html>
